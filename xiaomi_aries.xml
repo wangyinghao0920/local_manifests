@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device configuration -->
+  <remote name="M1cha"
+    fetch="https://github.com/M1cha" />
+  <remote name="CyanogenMod"
+    fetch="https://github.com/CyanogenMod" />
+  <remote name="MI2S"
+    fetch="https://github.com/MI2S" />
+  <project path="" name="mi2_lk" remote="M1cha" revision="master" />
+  <project path="" name="android_kernel_xiaomi_aries" remote="CyanogenMod" revision="cm-11.0" />
+  <project path="" name="android_device_xiaomi_aries" remote="CyanogenMod" revision="cm-11.0" />
+  <project path="" name="android_vendor_xiaomi_aries" remote="MI2S" revision="cm-11.0" />
+
+</manifest>
